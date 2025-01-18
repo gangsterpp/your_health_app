@@ -1,0 +1,34 @@
+name: your_health_app
+description: "Тестовое приложение Твоё здоровье" 
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: 5.7.0
+  fl_chart: 0.70.2
+  google_fonts: 6.2.1
+  json_annotation: 4.9.0
+  intl: 0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 5.0.0
+  json_serializable: 6.9.3
+  build_runner: 2.4.14
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/fonts/
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/GilroyExBold.ttf
+        - asset: assets/fonts/GilroyLight.ttf
+      
